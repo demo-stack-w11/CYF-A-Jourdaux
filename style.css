@@ -1,0 +1,128 @@
+/* Element selector */
+body {
+  background-color: #f7f1ed;
+  color: #2f2420;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Element selector */
+header {
+  background-color: #4b2d32;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Element selector */
+h1 {
+  font-size: 42px;
+  margin: 0 0 15px;
+}
+
+/* Class selector */
+.intro {
+  font-size: 18px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Element selector */
+main {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* ID selector */
+#favourite-notes {
+  background-color: white;
+  border: 3px solid #b98b73;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+/* Element selector */
+h2 {
+  color: #7b3f45;
+  font-size: 28px;
+  text-align: center;
+}
+
+/* This keeps the main image centred at every screen width */
+.main-image {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 25px auto;
+  border: 5px solid #e8d2c5;
+  border-radius: 10px;
+}
+
+/* Element selector */
+ul {
+  background-color: #fff6ef;
+  border-left: 5px solid #b98b73;
+  padding: 20px 20px 20px 40px;
+}
+
+/* Class selector */
+.image-gallery {
+  background-color: #ead9d0;
+  border: 3px solid #b98b73;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Class selector */
+.gallery-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Selects images inside the gallery class */
+.gallery-images img {
+  width: 100%;
+  max-width: 360px;
+  height: 250px;
+  object-fit: cover;
+  border: 4px solid white;
+  border-radius: 10px;
+}
+
+/* Element selector */
+footer {
+  background-color: #4b2d32;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+h3 {
+  color: #7b3f45;
+  font-size: 22px;
+  margin-top: 25px;
+}
+
+.highlight {
+  color: #7b3f45;
+  font-weight: bold;
+  background-color: #f4ddd0;
+  padding: 2px 5px;
+}
+
+a {
+  color: #7b3f45;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #b98b73;
+}
